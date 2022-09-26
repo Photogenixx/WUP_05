@@ -19,6 +19,8 @@ DrugUsers<- filter(triUmp,DrugUser=="yes")
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
+Thru the use of data files the effective use of a preventive aids drug undergoing clinical trials will be observed from the results of graphic,numerical and inferential data results which will be extracted for greater clarity of the data analysis.The Selected focus filter will be on the triUmp, subdivision labeled DrugUser. 
+
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the DrugUsers, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
 
 # Methods
@@ -50,7 +52,7 @@ table1 <- xtabs(~treatment + infected,data=DrugUsers)
 rowPerc(table1)
 colPerc(table1)
 ```
-This data shows us that the percent of people that contracted aids while taking the drug was 3.69%
+This data shows us that the percent of people that contracted aids while taking the drug was 2.89%
 
 
 
