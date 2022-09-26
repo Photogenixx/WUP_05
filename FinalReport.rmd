@@ -66,8 +66,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-This text (Fisher test shows the odds ratio being 1.5439 which indicates the times you are likely to get aids 
-while taking the drug)
+This text (Fisher test shows the odds ratio being 0.3534128 possibilities which you are likely to get aids while taking the drug)
 
 
 # Discussion and Conclusion
