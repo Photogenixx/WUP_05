@@ -22,7 +22,8 @@ DrugUsers<- filter(triUmp,DrugUser=="yes")
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the DrugUsers, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
 
 # Methods
-
+The method of choice is graphical and numerical tools to aid in providing evidence needed to make an
+ analysis of the data to support or reject the null hypotheses.The barchartGc and the Chi test in addition to the Fisher test. 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Results
