@@ -45,6 +45,7 @@ barchartGC(~treatment + infected,data=DrugUsers, type="percent")
 
 
 ```
+The barcharts above shows information that requires careful coding.If the order of the query is reversed the accurate reading of the information in restricted due to clarity and size of the graph data. observe the charts above and pay particular attention to the size and coding request order.
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 ```{r}
@@ -52,7 +53,7 @@ table1 <- xtabs(~treatment + infected,data=DrugUsers)
 rowPerc(table1)
 colPerc(table1)
 ```
-This data shows us that the percent of people that contracted aids while taking the drug was 2.89%
+This data shows us that the graphic data results given by the barchartGc
 
 
 
